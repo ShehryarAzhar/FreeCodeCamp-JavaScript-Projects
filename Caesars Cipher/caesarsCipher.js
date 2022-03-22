@@ -44,7 +44,7 @@ function rot13(str) {
     let newAlphaIndex = alphaIndex + 13;
 
     /* if after adding 13 index of new alphabet doesn't exceeds or equals Alphabets length
-      then simply add the new alphabet at the correspding newIndex to the result
+      then simply add the new alphabet at the corresponding newIndex to the result
     */
     if (newAlphaIndex >= ALPHABETS.length) {
       // if after adding 13 index of new alphabet exceeds or equals Alphabets length
